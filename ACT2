@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spaghetti Recipe</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      background-color: 	#FFA07A;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .ingredients {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .ingredient-item {
+      width: 48%;
+      margin-bottom: 15px;
+    }
+
+    .procedure {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Spaghetti Recipe</h1>
+    <img src="https://img.taste.com.au/FKic8YM6/w1200-h630-cfill/taste/2024/03/5-ingredient-turbo-charged-spaghetti-recipe-196959-1.jpg" alt="Delicious Spaghetti" style="width:100%; border-radius: 5px;">
+    <h2>Ingredients</h2>
+    <ul class="ingredients">
+      <li class="ingredient-item">400g spaghetti</li>
+      <li class="ingredient-item">2 tbsp olive oil</li>
+      <li class="ingredient-item">1 onion, chopped</li>
+      <li class="ingredient-item">2 cloves garlic, minced</li>
+      <li class="ingredient-item">500g ground beef</li>
+      <li class="ingredient-item">400g canned tomatoes</li>
+      <li class="ingredient-item">2 tbsp tomato paste</li>
+      <li class="ingredient-item">1 tsp dried oregano</li>
+      <li class="ingredient-item">Salt and pepper to taste</li>
+      <li class="ingredient-item">Fresh basil for garnish</li>
+      <li class="ingredient-item">Grated Parmesan cheese</li>
+    </ul>
+    <h2>Procedure</h2>
+    <ol class="procedure">
+      <li>Cook spaghetti according to package instructions. Drain and set aside.</li>
+      <li>In a large pan, heat olive oil over medium heat. Add onion and garlic, sauté until fragrant.</li>
+      <li>Add ground beef to the pan, cook until browned. Drain excess fat.</li>
+      <li>Stir in canned tomatoes, tomato paste, oregano, salt, and pepper. Simmer for 15 minutes.</li>
+      <li>Combine the sauce with the cooked spaghetti. Serve hot, garnished with fresh basil and grated Parmesan cheese.</li>
+    </ol>
+  </div>
+</body>
+</html>
